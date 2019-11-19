@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://www.chauncywang.com:8888/eureka/
+server:
+  port: 8666
+spring:
+  application:
+    name: SpringCloud-Ribbon
